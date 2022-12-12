@@ -1,3 +1,8 @@
+const express = require("express");
+const router = new express.Router();
+
+const Message = require("../models/message");
+
 /** GET /:id - get detail of message.
  *
  * => {message: {id,
